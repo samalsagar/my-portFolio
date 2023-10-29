@@ -1,0 +1,294 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* left-part-start */
+.left-side{
+    position: sticky;
+    top: 50px;
+}
+.main-sec{
+    display: grid;
+    grid-template-columns: 2.5fr 9.5fr ;
+    /* grid-gap: 20px; */
+}
+.col{
+    /* height: 100vh; */
+    /* border: 1px solid gray; */
+    grid-gap: 30px;
+}
+.left-side img{
+    border-radius: 120px;
+    border: 5px solid gray;
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+}
+.image-title{
+    font-size: 25px;
+}
+.image-box-icons span{
+    display: inline-block;
+}
+.image-box-icons{
+    margin-left: 30%;
+}
+.icon-sec{
+    width: 23px;
+    height: 23px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+main div {
+    margin-bottom: 30px;
+}
+main{
+    margin-left: 13%;
+    font-size: 17px;
+}
+footer{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 40%;
+}
+/* left-part-end */
+
+/* right-side-start */
+
+.right-side{
+    background-color: white;
+    color: white;
+}
+.home{
+    background-image:url('../public/images/home.jpg');
+    height: 900px;
+    background-size: cover;
+    text-shadow: 5px 4px 2px black;
+    background-attachment: fixed;
+}
+.name-header{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.name-body{
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.name-footer{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+hr{
+    width: 10%;
+}
+.about-title{
+    font-size: 27px;
+}
+hr{
+    margin-top: -18px;
+    /* margin-left: 611px; */
+    width: 76px;
+    height: 4px;
+    background: #30e3ca;
+    /* margin-left: 46%; */
+    color: #30e3ca;
+    margin-left: 15px;
+}
+.about-title {
+    color: cornflowerblue;
+}
+.profile-img{
+    border: 10px solid gray;
+}
+.title-content{
+    color: cornflowerblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+.subtitle-content {
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+}
+.bi-chevron-right {
+    color: aqua;
+    /* font-size: 20px; */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.about-content-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 480px;
+}
+
+/* reusme-sec-start */
+.custome-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+header{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    height: 155vh;
+    grid-gap: 20px;
+    border: 1px solid gray;
+    border-top: none;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.col1{
+    background-color: lightgray;
+}
+.chapter-sec{
+    height: 65%;
+    margin: 10px 25px 0px 25px;
+    background-color: white;
+    color: black;
+}
+.chapter-box{ 
+    margin: 10px 0px 0px 34px;
+
+}
+.chapter-title{
+    font-size: 15px;
+}
+.chpater-details{
+    font-size: 11px;
+}
+.lang-sec{
+    height: 30px;
+    margin: 10px 25px 0px 25px;
+    background-color: white;
+    color: black;
+}
+.rating-sec{
+    height: 12%;
+    margin: 10px 25px 0px 25px;
+    background-color: white;
+    color: black;
+}
+.bi-star-fill, .bi-star{
+    color: goldenrod;
+}
+.top-header{
+    height: 130px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 50px;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.name{
+    font-size: 25px;
+}
+.col-tophead2 p{
+    text-align: right;
+}
+.col-tophead2 div{
+    text-align: right;
+}
+.col-tophead2{
+    font-size: 12px;
+}
+
+
+/* right-part starts */
+#about-hr{
+    width: 97%;
+    margin-top: 1px;
+    /* height: 15px; */
+    border: none;
+    height: 3px;
+    background-color: blue;
+}
+.right-col-title{
+    font-size: 18px;
+}
+.right-col-subtitle{
+    font-size: 16px;
+}
+.work-exp-title{
+    font-size: 14px;
+}
+.col-text-custome{
+    margin-left: -94%;
+}
+.tech-used{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.edu-title{
+    font-size: 15px;
+}
+.edu-subtitle{
+    font-size: 13px;
+}
+.place{
+    margin-left: 38%;
+}
+.date-sign{
+    font-size: 12px;
+    margin-top: 70px;
+}
+p{
+    color: black;
+}
+.main-division{
+    margin-left: -9%;
+}
+.bi-star-half{
+    color: goldenrod;
+}
+.resume-sec{
+    margin-top: -10%;
+}
+.resume-container{
+    height: 1600px;
+}
+.main-division{
+    margin-top: 80px;
+}
+.test{
+    height: 200px;
+}
+.cnct-title{
+    font-size: 23px;
+    font-weight: bold;
+}
+.cnct-logo{
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    background-color: lightblue;
+    display: flr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conatct-details-container{
+    margin-top: 80px;
+    height:450px;
+}
+.left-side-cnct{
+    /* background-color: lightgray; */
+    padding: 10px;
+}
+
+
